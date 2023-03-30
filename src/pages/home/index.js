@@ -1,11 +1,12 @@
 import React from 'react'
-import Nav from '../../components/nav';
 import Banner from '../../sections/banner';
+import Services from '../../sections/services';
 
 const Home = () => {
   return (
     <>
-    <Banner />
+      {/* <Banner /> */}
+      <Services />
     </>
   )
 }
