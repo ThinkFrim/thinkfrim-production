@@ -6,7 +6,7 @@ const Services = () => {
             <div className='py-5'>
                 <div className='text-center'>
                     <h1 className='White text-3xl pb-5'>Services we provide</h1>
-                    <p className='White text-xl'>We're a full-service web agency specializing in custom <br className="hidden md:inline" /> website design, development, maintenance, optimization, and marketing. Our expert team creates beautiful, user-friendly websites that drive results.</p>
+                    <p className='White text-xl pb-10'>We're a full-service web agency specializing in custom <br className="hidden md:inline" /> website design, development, maintenance, optimization, and marketing. Our expert team creates beautiful, user-friendly websites that drive results.</p>
                 </div>
                 <div>
                     {
