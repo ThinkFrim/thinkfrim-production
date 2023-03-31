@@ -2,7 +2,7 @@ import React from 'react'
 import DataService from '../../static/Data/ServiceData';
 const Services = () => {
     return (
-        <section className='GunMetalBg ' id='service'>
+        <section className='GunMetalBg' id='service'>
             <div className='py-5'>
                 <div className='text-center'>
                     <h1 className='White text-3xl pb-5'>Services we provide</h1>
