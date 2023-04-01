@@ -1,0 +1,20 @@
+.card:nth-child(2) {
+    flex-direction: row-reverse;
+
+}
+
+.card:nth-child(4) {
+    flex-direction: row-reverse;
+
+}
+
+@media all and (max-width: 490px) {
+    .card:nth-child(2) {
+        flex-direction: column;
+    }
+
+    .card:nth-child(4) {
+        flex-direction: column;
+
+    }
+}

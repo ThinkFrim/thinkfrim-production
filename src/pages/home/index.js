@@ -6,8 +6,8 @@ import Services from '../../sections/services';
 const Home = () => {
   return (
     <>
-      {/* <Banner /> */}
-      {/* <Services /> */}
+      <Banner />
+      <Services />
       <LatestWork />
     </>
   )
