@@ -6,8 +6,8 @@ const LatestWork = () => {
     return (
         <section className='GunMetalBg h-full' id='latestwork'>
             <div>
-                <div className='flex items-center justify-between mx-5 pb-10 pt-5'>
-                    <h1 className='White text-3xl'>Our Latest Work</h1>
+                <div className='flex items-center justify-between mx-5 pb-16 pt-5 md:mx-20'>
+                    <h1 className='White text-3xl md:text-4xl'>Our Latest Work</h1>
                     <img src="/media/icon/showAll.svg" alt="" />
                 </div>
 
