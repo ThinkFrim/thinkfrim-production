@@ -1,4 +1,5 @@
 import React from 'react'
+import ContactCard from '../../components/contactcard';
 import Footer from '../../components/footer';
 import Banner from '../../sections/banner';
 import LatestWork from '../../sections/latestWork';
@@ -12,6 +13,7 @@ const Home = () => {
       <Services />
       <LatestWork />
       <Team />
+      <ContactCard />
       <Footer />
     </>
   )
