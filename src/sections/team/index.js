@@ -4,8 +4,8 @@ import DataTeam from '../../static/Data/TeamData';
 const Team = () => {
   return (
     <section id='team'>
-      <div>
-        <div className='text-center md:text-left md:flex md:items-center pt-7 pb-7'>
+      <div className=''>
+        <div className='text-center md:text-left md:flex md:items-center pt-20 pb-7'>
           <h1 className='text-xl pb-5 md:mx-3 md:text-2xl'>Meet Multi-Talented people who are passionate <br className="hidden md:inline" /> about their craft</h1>
           <button className='GunMetalBg White p-4 w-1/2 rounded-[15px] mx-auto md:w-1/4 xl:w-[15%]'>Meet Team</button>
         </div>
@@ -19,7 +19,7 @@ const Team = () => {
                     <h2 className='White text-lg lg:text-lg'>{team.position}</h2>
                   </div>
                   <div>
-                    <img className='w-full' src={team.img} alt="" />
+                    <img className='w-full h-1/3' src={team.img} alt="" />
                   </div>
                 </div>
               )
