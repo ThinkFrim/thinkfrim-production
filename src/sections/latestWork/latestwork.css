@@ -18,3 +18,14 @@
 
     }
 }
+
+@media all and (max-width: 768px) {
+    .card:nth-child(2) {
+        flex-direction: flex-row;
+    }
+
+    .card:nth-child(4) {
+        flex-direction: flex-row;
+
+    }
+}
