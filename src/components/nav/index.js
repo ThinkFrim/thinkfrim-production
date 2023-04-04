@@ -1,5 +1,4 @@
 import { Sling as Hamburger } from 'hamburger-react'
-import { motion, AnimatePresence } from "framer-motion";
 import { HashLink } from 'react-router-hash-link';
 import { useState } from 'react';
 const Nav = () => {
@@ -12,11 +11,6 @@ const Nav = () => {
   // close navbar and hamburger menu on menu item click
   const closeNavbar = () => {
     setIsOpen(false);
-  };
-
-  const variants = {
-    open: { opacity: 1, x: 0 },
-    closed: { opacity: 0, x: "-100%" },
   };
 
   return (

@@ -27,7 +27,7 @@ const Team = () => {
           }
         </div>
       </div>
-    </section >
+    </section>
   )
 }
 
