@@ -4,7 +4,8 @@ const DataService = [
         number: '01',
         title: 'Brand Identity + Positioning',
         icon: '/media/icon/arrow.svg',
-        img: '/media/images/div (3).png'
+        img: '/media/images/div (3).png',
+        responsiveimg: '/public/media/images/website design.png',
 
     },
 
@@ -13,7 +14,8 @@ const DataService = [
         number: '02',
         title: 'Website Design + Development',
         icon: '/media/icon/arrow.svg',
-        img: '/media/images/div.png'
+        img: '/media/images/div.png',
+        responsiveimg: '/public/media/images/website design.png',
 
     },
 
@@ -22,7 +24,8 @@ const DataService = [
         number: '03',
         title: 'Mobile Design',
         icon: '/media/icon/arrow.svg',
-        img: '/media/images/div (1).png'
+        img: '/media/images/div (1).png',
+        responsiveimg: '/public/media/images/website design.png',
 
     },
 
@@ -31,7 +34,8 @@ const DataService = [
         number: '04',
         title: 'Advertising + Branded Content',
         icon: '/media/icon/arrow.svg',
-        img: '/media/images/div (2).png'
+        img: '/media/images/div (2).png',
+        responsiveimg: '/public/media/images/website design.png',
 
     },
 ]
