@@ -12,9 +12,7 @@ const Banner = () => {
                     <h1 className="White text-2xl md:text-3xl md:leading-[2rem] lg:text-4xl 2xl:text-5xl">Transform your online image <br className="hidden md:inline" /> with a professional website</h1>
                     <h2 className="White text-xl pt-4 pb-5 md:text-xl lg:text-2xl 2xl:text-3xl">Get ahead of the competition <br /> with a custom-built website</h2>
                     <button className="RajahBg w-1/2 p-5 mb-5 rounded-[15px] font-medium md:w-1/2 2xl:w-[40%]">
-                        <HashLink smooth to="#service">
-                            <a href="#service" className="chineseBlack">Discover</a>
-                        </HashLink>
+                        Discover
                     </button>
                 </div>
                 <div>

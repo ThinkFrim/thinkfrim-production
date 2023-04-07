@@ -14,8 +14,8 @@ const Nav = () => {
   };
 
   return (
-    <nav className='px-2 py-5'>
-      <div className=" flex flex-wrap items-center justify-between">
+    <nav className='px-2 py-5 chineseBlackBg'>
+      <div className="container flex flex-wrap items-center justify-between">
         <a href="/">
           <img className="w-2/3 md:w-full py-5 mx-3" src="/media/logo/ThinkFrimLogo.svg" alt="thinkfrim.svg" />
         </a>

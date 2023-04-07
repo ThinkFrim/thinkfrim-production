@@ -56,12 +56,21 @@
     background: var(--GunMetalBg);
 }
 
+.GunMetal {
+    color: var(--GunMetalBg);
+}
+
+
 .darkGreenBg {
     background: var(--darkGreenBg);
 }
 
 .RaisinBlackBg {
     background: var(--RaisinBlackBg);
+}
+
+.RaisinBlack {
+    color: var(--RaisinBlackBg);
 }
 
 .bronzeMetallicBg {
