@@ -1,3 +1,4 @@
+import Footer from '../../components/footer';
 import Brand from '../../sections/brand';
 import OurProjects from '../../sections/ourproject';
 
@@ -6,6 +7,7 @@ const Branding = () => {
         <>
             <Brand />
             <OurProjects />
+            <Footer />
         </>
     )
 }

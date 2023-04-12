@@ -31,7 +31,7 @@ const Nav = () => {
         <div className={` relative w-full md:block md:w-auto ${isOpen ? 'block' : 'hidden'}`} onClick={closeNavbar} id="navbar-default">
           <ul className="absolute top-0 left-0 w-full flex flex-col items-center p-5 RajahBg rounded-lg md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 md:static md:bg-transparent">
             <li>
-              <HashLink smooth className="block py-2 pl-3 pr-4 chineseBlack font-medium rounded md:hover:bg-transparent md:text-2xl md:border-0 md:p-0 md:text-white dark:text-gray-400 md:dark:hover:text-white md:text-[20px] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" to="#services">
+              <HashLink smooth className="block py-2 pl-3 pr-4 chineseBlack font-medium rounded md:hover:bg-transparent md:text-2xl md:border-0 md:p-0 md:text-white dark:text-gray-400 md:dark:hover:text-white md:text-[20px] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" to="#service">
                 Service
               </HashLink>
             </li>
