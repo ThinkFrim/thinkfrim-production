@@ -1,53 +1,44 @@
-import React from 'react'
+import React, { useState } from 'react';
+import projects from '../../static/Data/OurProject'
 
 const OurProjects = () => {
+    const [brand, setBrand] = useState('Voss')
+
+    const SeletctedBrand = (e) => {
+        console.log(e.target.name);
+        e.preventDefault();
+        setBrand(e.target.name)
+    }
     return (
         <section className='chineseBlackBg' id='ourprojects'>
-            <div>
-                <div>
-                    <ul className='White capitalize ml-5'>
-                        <h1>Our Projects</h1>
-                        <li className='py-5'>
-                            voss water
-                            <a class='group Rajah transition-all duration-300 ease-in-out' href='#'>
-                                <span className=' block bg-left-bottom bg-gradient-to-r from-pink-500 to-pink-500 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:15%_2px] transition-all duration-500 ease-out'>
-                                    005 Digital Portfolios for All
-                                </span>
-                            </a>
-                        </li>
-                        <li className='py-5'>
-                            Delicious Speaks For Itself
-                            <a class='group Rajah transition-all duration-300 ease-in-out' href='#'>
-                                <span className=' block bg-left-bottom bg-gradient-to-r from-pink-500 to-pink-500 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:15%_2px] transition-all duration-500 ease-out'>
-                                    005 Digital Portfolios for All
-                                </span>
-                            </a>
-                        </li>
-                        <li className='py-5'>
-                            STK Steakhouse
-                            <a class='group Rajah transition-all duration-300 ease-in-out' href='#'>
-                                <span className=' block bg-left-bottom bg-gradient-to-r from-pink-500 to-pink-500 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:15%_2px] transition-all duration-500 ease-out'>
-                                    005 Digital Portfolios for All
-                                </span>
-                            </a>
-                        </li>
-                        <li className='py-5'>
-                            HPI Real Estate
-                            <a class='group Rajah transition-all duration-300 ease-in-out' href='#'>
-                                <span className=' block bg-left-bottom bg-gradient-to-r from-pink-500 to-pink-500 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:15%_2px] transition-all duration-500 ease-out'>
-                                    005 Digital Portfolios for All
-                                </span>
-                            </a>
-                        </li>
-                        <li className='py-5'>
-                            bulb
-                            <a class='group Rajah transition-all duration-300 ease-in-out' href='#'>
-                                <span className=' block bg-left-bottom bg-gradient-to-r from-pink-500 to-pink-500 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:15%_2px] transition-all duration-500 ease-out'>
-                                    005 Digital Portfolios for All
-                                </span>
-                            </a>
-                        </li>
-                    </ul>
+            <div className=''>
+                <div className='pl-5'>
+                    <h1 className='White xl:text-3xl'>Projects</h1>
+                    {
+                        projects.map((brandProject) => (
+                            <React.Fragment key={brandProject.id}>
+                                <ul key={brandProject.id}>
+                                    <li
+                                        className={`White py-5 xl:text-3xl ${brand === brandProject.title && 'active'}`}
+                                        name={brandProject.title}
+                                        onClick={SeletctedBrand}
+                                    >
+                                        {brandProject.title}
+                                        <a href='#' className='group Rajah transition-all duration-300 ease-in-out'>
+                                            <span className='xl:text-lg font-light block bg-left-bottom bg-gradient-to-r from-amber-700 to-amber-700 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:15%_2px] transition-all duration-500 ease-out'>
+                                                {brandProject.SubTitle}
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                {brand === brandProject.title && (
+                                    <div>
+                                        <img src={brandProject.img} alt='' />
+                                    </div>
+                                )}
+                            </React.Fragment>
+                        ))
+                    }
                 </div>
             </div>
         </section>
@@ -55,3 +46,11 @@ const OurProjects = () => {
 }
 
 export default OurProjects
+{/* <li className='py-5 xl:text-3xl'>
+    bulb
+    <a class='group Rajah transition-all duration-300 ease-in-out' href='#'>
+        <span className='xl:text-lg font-light block bg-left-bottom bg-gradient-to-r from-amber-700 to-amber-700 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:15%_2px] transition-all duration-500 ease-out'>
+            005 Digital Portfolios for All
+        </span>
+    </a>
+</li> */}
