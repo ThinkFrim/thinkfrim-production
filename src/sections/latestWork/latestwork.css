@@ -1,6 +1,3 @@
-
-
-
 .card:nth-child(2) {
     flex-direction: row-reverse;
 
@@ -14,10 +11,12 @@
 @media all and (max-width: 490px) {
     .card:nth-child(2) {
         flex-direction: column;
+        display: none;
     }
 
     .card:nth-child(4) {
         flex-direction: column;
+        display: none;
 
     }
 }
@@ -25,10 +24,12 @@
 @media all and (max-width: 768px) {
     .card:nth-child(2) {
         flex-direction: flex-row;
+        display: none;
     }
 
     .card:nth-child(4) {
         flex-direction: flex-row;
+        display: none;
 
     }
 }

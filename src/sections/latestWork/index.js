@@ -21,10 +21,10 @@ const LatestWork = () => {
                                         <p className='White text-lg'>{cards.description}</p>
                                         <div className='flex items-center gap-3 pt-5'>
                                             <h1 className='White'>See Project</h1>
-                                            <img src={cards.icon} alt="" />
+                                            <img src={cards.icon} className='' alt="" />
                                         </div>
                                     </div>
-                                    <img className='object-cover p-2 md:w-full' src={cards.img} alt="" />
+                                    <img className='object-cover p-2 md:w-[50vw]' src={cards.img} alt="" />
                                 </div>
 
                             )

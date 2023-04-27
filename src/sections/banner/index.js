@@ -4,10 +4,10 @@ import { HashLink } from "react-router-hash-link";
 const Banner = () => {
     return (
         // check the height on larger screen !!!
-        <section className='chineseBlackBg h-screen md:h-[100vh]' id='banner'>
+        <section className='chineseBlackBg min-h-screen md:h-[100vh]' id='banner'>
             <Nav />
             {/* fix responsive from 1024 px and below */}
-            <div className="flex flex-col pt-[5rem] items-center justify-around xl:flex-row lg:pt-0">
+            <div className="flex flex-col pt-[6rem] items-center justify-around xl:flex-row lg:pt-0 xl:pt-[5rem]">
                 <div className="text-center pt-10 md:pt-20 xl:text-left">
                     <h1 className="White text-2xl md:text-3xl md:leading-[2rem] lg:text-4xl 2xl:text-5xl">Transform your online image <br className="hidden md:inline" /> with a professional website</h1>
                     <h2 className="White text-xl pt-4 pb-5 md:text-xl lg:text-2xl 2xl:text-3xl">Get ahead of the competition <br /> with a custom-built website</h2>

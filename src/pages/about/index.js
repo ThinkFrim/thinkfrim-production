@@ -6,7 +6,7 @@ const About = () => {
     return (
         <div className='chineseBlackBg min-h-screen'>
             <Nav />
-            <div className='xl:mb-[20rem] xl:mt-[5rem] pt-[10rem]'>
+            <div className='xl:mt-[5rem] pt-[10rem]'>
                 <div className="flex flex-col items-center lg:items-start lg:flex-row lg:justify-start lg:gap-[5rem] xl:gap-[20rem]">
                     <div class="relative pb-5">
                         <img src="/media/illustrator/dotts.svg" class="hidden lg:block object-cover xl:max-w-full" alt="" />
