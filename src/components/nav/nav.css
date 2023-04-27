@@ -3,6 +3,7 @@ nav {
     /* align-items: center; */
     justify-content: space-between;
     padding: 1rem 5rem;
+    background-color: #0f0e17;
 }
 
 .nav-links {
@@ -51,7 +52,6 @@ nav {
         position: fixed;
         z-index: 3;
         width: 100vw;
-        background-color: #0f0e17;
         padding: 1rem 10px;
     }
 
