@@ -37,7 +37,7 @@ const Nav = () => {
           <HashLink to="/#service" className='font-semibold' smooth onClick={closeNavbar}>Services</HashLink>
         </li>
         <li>
-        <HashLink to="/about" className='font-semibold' smooth onClick={closeNavbar}>Contact Us</HashLink>
+        <HashLink to="/contact" className='font-semibold' smooth onClick={closeNavbar}>Contact Us</HashLink>
         </li>
         <a href="https://instagram.com/dietbyyara?igshid=MTIyMzRjYmRlZg==">
           <img src="/media/icons/Instagram.svg" alt="" />

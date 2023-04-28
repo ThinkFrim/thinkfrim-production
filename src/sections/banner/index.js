@@ -1,5 +1,4 @@
 import Nav from "../../components/nav";
-import { HashLink } from "react-router-hash-link";
 
 const Banner = () => {
     return (
