@@ -4,7 +4,7 @@ const DataTeam =
             id: '1',
             title: 'Aram Istamboulian',
             position: 'co-founder',
-            img: '/media/images/aramphoto.png'
+            img: '/media/images/Aram 1 1.png'
         },
 
         {
