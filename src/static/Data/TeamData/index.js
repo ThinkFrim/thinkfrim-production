@@ -2,24 +2,24 @@ const DataTeam =
     [
         {
             id: '1',
-            title: 'Aram',
+            title: 'Aram Istamboulian',
             position: 'co-founder',
             img: '/media/images/aramphoto.png'
         },
 
         {
             id: '1',
-            title: 'Firas',
+            title: 'Firas Halabi',
             position: 'co-founder',
-            img: '/media/images/aramphoto.png'
+            img: '/media/images/firas.png'
         },
 
 
         {
             id: '1',
-            title: 'Rudy',
-            position: 'Lead UI-UX',
-            img: '/media/images/aramphoto.png'
+            title: 'Reem Halabi',
+            position: 'Digital Marketing',
+            img: '/media/images/reem.png'
         },
 
     ]

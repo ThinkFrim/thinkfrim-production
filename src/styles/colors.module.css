@@ -40,6 +40,10 @@
     background: var(--RajahBg);
 }
 
+.Rajah {
+    color: var(--RajahBg);
+}
+
 .White {
     color: var(--White);
 }
