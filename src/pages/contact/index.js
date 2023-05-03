@@ -1,22 +1,23 @@
+import Footer from "../../components/footer";
 import Nav from "../../components/nav";
 import './contact.css'
 const Contact = () => {
     return (
         <div className="chineseBlackBg min-h-screen xl:h-screen">
             <Nav />
-            <div className="flex flex-col items-center justify-center xl:flex-row xl:gap-[10%]">
+            <div className="flex flex-col items-center justify-center xl:flex-row xl:gap-[10%] py-[5rem]">
                 <div className="flex items-center">
                     <div>
-                        <h1 className="text-white text-[60px] font-medium">Get In <span className="Rajah font-semibold">Touch</span></h1>
+                        <h1 className="text-white pt-16 lg:pt-0 text-[40px] lg:text-[60px] font-medium">Get In <span className="Rajah font-semibold">Touch</span></h1>
                     </div>
                 </div>
                 <form className="grid grid-cols-2 gap-4 m-auto pt-[5rem] xl:m-0 max-w-xl lg:w-8/12 lg:pt-[3rem]">
-                    <div className="col-span-1 lg:col-span-2">
+                    <div className="col-span-2 lg:col-span-2">
 
                         <input type="text" required name="FullName" className="chineseBlackBg  border-b-[2px] border-gray-500 text-black outline-none transition-colors focus:placeholder-slate-50 duration-300 focus:border-blue-400 p-3 md:text-xl w-full" placeholder="FullName" />
                     </div>
 
-                    <div className="col-span-1 lg:col-span-2">
+                    <div className="col-span-2 lg:col-span-2">
                         <input type="text" required name="email" className="chineseBlackBg  border-b-[2px] border-gray-500 outline-none transition-colors duration-300 focus:placeholder-slate-50 focus:border-blue-400 text-white p-3 md:text-xl w-full" placeholder="example@gmail.com" />
                     </div>
 
@@ -49,6 +50,7 @@ const Contact = () => {
                     </div>
                 </form>
             </div>
+            <Footer />
         </div>
     )
 }

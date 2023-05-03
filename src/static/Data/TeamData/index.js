@@ -8,7 +8,7 @@ const DataTeam =
         },
 
         {
-            id: '1',
+            id: '2',
             title: 'Firas Halabi',
             position: 'co-founder',
             img: '/media/images/firas.png'
@@ -16,10 +16,18 @@ const DataTeam =
 
 
         {
-            id: '1',
+            id: '3',
             title: 'Reem Halabi',
             position: 'Digital Marketing',
             img: '/media/images/reem.png'
+        },
+
+
+        {
+            id: '4',
+            title: 'Rudy',
+            position: 'Lead UI/UX',
+            img: '/media/images/Rudy.png'
         },
 
     ]
