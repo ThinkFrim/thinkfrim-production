@@ -1,10 +1,10 @@
-import Footer from "../../components/footer";
-import Nav from "../../components/nav";
+
 import './contact.css'
+
+
 const Contact = () => {
     return (
         <div className="chineseBlackBg min-h-screen xl:h-screen">
-            <Nav />
             <div className="flex flex-col items-center justify-center xl:flex-row xl:gap-[10%] py-[5rem]">
                 <div className="flex items-center">
                     <div>
@@ -50,9 +50,11 @@ const Contact = () => {
                     </div>
                 </form>
             </div>
-            <Footer />
         </div>
     )
 }
 
 export default Contact;
+
+
+

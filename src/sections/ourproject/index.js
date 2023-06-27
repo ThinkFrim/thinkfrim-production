@@ -24,7 +24,7 @@ const OurProjects = () => {
                                         onClick={SeletctedBrand}
                                     >
                                         {brandProject.title}
-                                        <a href='#' className='group Rajah transition-all duration-300 ease-in-out'>
+                                        <a href='/' className='group Rajah transition-all duration-300 ease-in-out'>
                                             <span className='xl:text-lg font-light block bg-left-bottom bg-gradient-to-r from-amber-700 to-amber-700 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:15%_2px] transition-all duration-500 ease-out'>
                                                 {brandProject.SubTitle}
                                             </span>
@@ -45,12 +45,4 @@ const OurProjects = () => {
     )
 }
 
-export default OurProjects
-{/* <li className='py-5 xl:text-3xl'>
-    bulb
-    <a class='group Rajah transition-all duration-300 ease-in-out' href='#'>
-        <span className='xl:text-lg font-light block bg-left-bottom bg-gradient-to-r from-amber-700 to-amber-700 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:15%_2px] transition-all duration-500 ease-out'>
-            005 Digital Portfolios for All
-        </span>
-    </a>
-</li> */}
+export default OurProjects;
